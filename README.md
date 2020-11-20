@@ -183,6 +183,10 @@ I used Balsamiq and figma to create the wireframes. The layout has altered since
 
 - [Jinja](https://flask.palletsprojects.com/en/1.1.x/) - is a templating language for Python. I primarily used it to display data from the backend in HTML.
 
+- [PyMongo](https://flask.palletsprojects.com/en/1.1.x/) - is the recommended way to work with MongoDB from Python, used to make communication between Python and MongoDB.
+
+- [dnspython](https://pypi.org/project/dnspython/) - is a DNS toolkit for Python.
+
 ### Version Control
 
 - [Git](https://git-scm.com/) - used for version control
