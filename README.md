@@ -57,10 +57,10 @@ Phibsboro Cat Rescue is a site where cat fosterers can create profiles for cats 
 
 ### User Stories
 
-_- _  
-_- User Story B: _  
-_- User Story C: _  
-_- User Story D: _
+_- User Story A: Joe is a fosterer with PCR and wants to create a profile and add data for a cat in his care. _  
+_- User Story B: Liz is looking to adopt a cat and wants to view cats that are available for adoption and contact PCR about adopting. _  
+_- User Story C: Harry adopted a cat from PCR last year and wants to show how well his cat is doing and share his story with other potential adopters. _  
+_- User Story D: Hazel runs PCR and wants all available information on cats and fosterers to be easily located and retrieveable on a beautiful website. _
 
 ## UX Planes
 
@@ -138,19 +138,89 @@ I used Balsamiq and figma to create the wireframes. The layout has altered since
 
 ---
 
-## Features
+# Features
 
-### Existing Features
+## Existing Features
+
+### Elements on every page
+- Navbar
+    - The navigation bar features the PCR logo in the top left corner. The logo and name are links to the home page.
+
+    - For visitors to the site who are not logged in, list items links are available for them to use.
+        1. Adopt
+        2. Volunteer
+        3. Gallery
+        4. Contact
+        5. Login
+
+    - For users who are logged in, the list items are as follows: 
+        1. Adopt
+        2. Volunteer
+        3. Gallery
+        4. Contact
+        5. Add Cat
+        6. Profile
+        7. Sign Out
+
+    - Python determines if the user is logged in or not by checking `if 'user' in session` and passes this data to Jinja to display the correct navbar for the user.
+
+    - On small screens the navbar is collapsed into a burger icon on small screens.
+
+- Footer
+    - The footer features:
+        - Copyright Information
+        - Links to existing social media platforms of the charity.
 
 - All Pages - 
 
 - Index - 
 
-- Contact - This section has a form where users can enquire about volunteering as well as a google map.
+Carousel
 
-### Features Left to Implement
+Map
+
+Social Media iFrame
+
+- Adopt - 
+
+This section contains a gallery of cats available for adoption with some basic information about the cats.
+
+- Contact - 
+
+This section has a form where users can enquire about volunteering as well as a google map.
+
+- Volunteer - 
+
+This section contains information on volunteering as well as a form that potential volunteets may fill out.
+
+- Gallery - 
+
+This section contains images and descriptions of cats succesfully rehomed by PCR.
+
+- Contact - 
+
+This section contains a form where people may get in contact with PCR as well as a Google Map.
+
+- Login - 
+
+This section contains a form where users may login and be redirected to their profile, alternatively they will have the option of registering an account.
+
+- Profile - 
+
+This section contains a form where users may update their information and current availability to foster cats.
+
+- Add Cats - 
+
+This section contains a form where users may provide details for cats currently in their care.
+
+
+## Features Left to Implement
 
 - Option to donate online.
+
+- Floating to top button:
+    - A floating button appears on the lower right of the screen when the user starts to scroll downwards. Clicking this moves the view back up to the top of the page. I added this feature because some pages can be quite long and the navbar is not fixed to the top of the page.
+    - Adding the class `.active` to the `#to-top-button` changes it's `opacity` from `0` to `0.5`, which gave me the ability to animate the change gently. The opacity is increased again to `1` on hover. 
 
 ##### back to [top](#table-of-contents)
 
