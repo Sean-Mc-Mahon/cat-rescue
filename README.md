@@ -68,6 +68,13 @@ _- User Story D: Hazel runs PCR and wants all available information on cats and 
 
 ### Strategy Plane
 
+- Business Goals: The purpose of PCR an integrated platform for various stakeholders including potential adopters, members of the organisation and the operators of the organisation. PCR is a place for fosterers to share data on the cats in their care, it's a place for potential adopters to view these cats and contact the organisation and it's a place for the operators of the organisation to facilitate all of this data and communication.
+
+
+- Audience: The audience of the site is broad and it cannot be assumed that even the operators of the site will be technically savvy, it is therefore necessary to make the site easily navigable not just for the public but also the organisation itself.
+
+- Content: The content must be thorough but relevant. The site is a place where people may learn about adopting and volunteering but is not a resource for topics such as taking care of cats nor is it a place to view funny cat videos etc..
+
 #### Project Goals:
 
 - 
@@ -87,10 +94,24 @@ _- User Story D: Hazel runs PCR and wants all available information on cats and 
 
 ### Scope Plane
 
+- The existing site has an outdated design and does not faciliatate input from fosterers. What is needed now is a site which integrates input from fosterers in a way which is clean, simple and easily navigable. Users must be able to upload photographs as well as provide information such as age, gender, date rescued etc.. in a structured way.
+
+- The data on each cat must be presented in a visually compelling way to encourage interaction with the site with the ultimate goal of finding a suitable home for every cat.
+
+- A gallery of cats successfully rehomed encourages interaction from previous adopters and will provide them with a platform to share their experience to encourage potential adopters to follow suit.
+
+- User profiles allow the fosterers to indicate their availability as well as suitability for different cats with information such as do they already have resident pets, children, level of fostering experience and how many cats they may be willing to foster at once.
+
+- Another goal of the site will be to drive trafffic to the social media channels of PCR. This in valuable as a means of quickly and effectively communicating with a large audience of cat lovers around Dublin.
+
+- In the future a feature to facilitate donations from the public would be useful. An online shopo selling mugs, t-shirts, christmas cards etc may also be implemented in the future.
 
 
 ### Structure Plane
 
+- The site users a consistent structure, a navbar is at the top of the page which allow a user to navigate the site and login if needed. A footer at the bottom provides copyright information and links to PCR social media pages. The content is consistant with text kept to a minimum. Where information is to be provided drop down menus and datepickers ensure data is input in a consistant manner. 
+
+The number of clicks needed to reach any page is kept to a minimum. Sections such as adding cat profiles and updating user profiles will not be visible to users who are not logged in.
 
 
 ### Skeleton Plane
@@ -102,6 +123,8 @@ _- User Story D: Hazel runs PCR and wants all available information on cats and 
 Each page may be navigated to eachother with one click.
 
 ### Surface Plane
+
+- The number is fonts is kept at a minimum as well as using a limited and consistant color scheme reflecting the original branding of the organisation.
 
 #### Design
 
