@@ -111,7 +111,7 @@ _- User Story D: Hazel runs PCR and wants all available information on cats and 
 
 - The site users a consistent structure, a navbar is at the top of the page which allow a user to navigate the site and login if needed. A footer at the bottom provides copyright information and links to PCR social media pages. The content is consistant with text kept to a minimum. Where information is to be provided drop down menus and datepickers ensure data is input in a consistant manner. 
 
-The number of clicks needed to reach any page is kept to a minimum. Sections such as adding cat profiles and updating user profiles will not be visible to users who are not logged in.
+- The number of clicks needed to reach any page is kept to a minimum. Sections such as adding cat profiles and updating user profiles will not be visible to users who are not logged in.
 
 
 ### Skeleton Plane
@@ -120,7 +120,6 @@ The number of clicks needed to reach any page is kept to a minimum. Sections suc
 - Main: 
 - Footer: Displays copyright information and provides links to social pages.
 
-Each page may be navigated to eachother with one click.
 
 ### Surface Plane
 
