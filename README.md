@@ -370,7 +370,7 @@ For more information about the above process; https://help.github.com/en/github/
 
 1.  Google Fonts for font styles; https://fonts.google.com/
 
-2.  Youtube; ... inspired by youtube tutorial by [...](...)
+2.  Youtube; Various resources for Materialize taken from [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff)
 
 3.  Stack Overfow; Code to implement ... taken from answer by ... [Stack Overflow](https://stackoverflow.com/)
 

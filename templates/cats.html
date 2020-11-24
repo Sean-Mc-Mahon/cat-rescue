@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cats</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block content %}
+
     {% for cat in cats %}
         {{ cat.name }}<br>
         {{ cat.age }}<br>
@@ -13,5 +8,5 @@
         {{ cat.appearance }}<br>
         {{ cat.rescue_date }}<br>
     {% endfor %}
-</body>
-</html>
+
+{% endblock %}
