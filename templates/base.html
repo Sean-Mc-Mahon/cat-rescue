@@ -21,11 +21,11 @@
 <body>
 
     <header>
-
+        <!--Top Navbar-->
         <nav class="nav-wrapper transparent grey-text text-darken-4">
             <div class="container">
-                <a href="#!" class="brand-logo text-shadow">Logo</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <a href="{{ url_for('cats') }}" class="brand-logo text-shadow">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right">
                     <i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="text-shadow" href="#">Adopt</a></li>
@@ -37,7 +37,9 @@
             </div>
         </nav>
 
+        <!--Side Navbar-->
         <ul class="sidenav" id="mobile-demo">
+                    <li><h4 class="center-align">Menu</h4></li>
                     <li><a href="#">Adopt</a></li>
                     <li><a href="#">Volunteer</a></li>
                     <li><a href="#">Gallery</a></li>
