@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Minified CSS taken from https://cdnjs.com/libraries/font-awesome -->
-    <link rel="stylesheet" 
+    <link 
+    rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- Compiled and minified CSS taken from https://materializecss.com/getting-started.html -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
     {% block styles %}
     {% endblock %}
@@ -15,9 +18,9 @@
 </head>
 <body>
 
-    <header>
+    <header class="header-image">
     <!--Main Nav-->
-        <nav class="nav-wrapper">
+        <!-- <nav class="nav-wrapper">
         <div class="container">
             <a href="" class="brand-logo">Phibsboro Cat Rescue</a>
             <a href="" class="sidenav-trigger" data-target="mobile-menu">
@@ -38,8 +41,36 @@
                 <li><a href="#login"></a>Log In</li>
             </ul>
         </div>
+        </nav> -->
+
+        <nav class="nav-wrapper transparent grey-text text-darken-4">
+            <div class="container">
+                <a href="#!" class="brand-logo grey-text text-darken-4 text-shadow">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Adopt</a></li>
+                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Volunteer</a></li>
+                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Gallery</a></li>
+                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Contact</a></li>
+                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Login</a></li>
+                </ul>
+            </div>
         </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+                    <li><a href="#">Adopt</a></li>
+                    <li><a href="#">Volunteer</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+        </ul>
+
     </header>
+
+    <!-- <section>
+        <img id="greycat" src="{{ url_for('static', filename='img/catgrey.jpg') }}" alt="">
+    </section> -->
 
     {% block content %}
     {% endblock %}
