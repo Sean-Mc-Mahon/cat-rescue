@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <h3 class="center-align">Register</h3>
+    
+    <div class="row">
+        <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('register') }}">
+            <div class="card-panel teal">
+                <!-- First Name -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="first_name" name="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                </div>
+                <!-- Last Name -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="last_name" name="last_name" type="text" class="validate">
+                        <label for="last_name">First Name</label>
+                    </div>
+                </div>
+                <!-- Password -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">vpn_key</i>
+                        <input id="password" name="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <!-- Register -->
+                <div class="row">
+                    <button type="submit" class="col s12 btn-large">
+                    Register <i class="material-icons prefix">how_to_reg</i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}

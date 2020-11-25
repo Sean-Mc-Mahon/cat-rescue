@@ -24,7 +24,7 @@
         <!--Top Navbar-->
         <nav class="nav-wrapper transparent grey-text text-darken-4">
             <div class="container">
-                <a href="{{ url_for('cats') }}" class="brand-logo text-shadow">Logo</a>
+                <a href="{{ url_for('get_cats') }}" class="brand-logo text-shadow">Logo</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger right">
                     <i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
@@ -33,6 +33,7 @@
                     <li><a class="text-shadow" href="#">Gallery</a></li>
                     <li><a class="text-shadow" href="#">Contact</a></li>
                     <li><a class="text-shadow" href="#">Login</a></li>
+                    <li><a href="{{ url_for('register') }}">Register</a></li>
                 </ul>
             </div>
         </nav>
@@ -45,6 +46,7 @@
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Login</a></li>
+                    <li><a href="{{ url_for('register') }}">Register</a></li>
         </ul>
 
     </header>
