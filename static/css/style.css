@@ -10,3 +10,7 @@ header {
 
     min-height: 60vh;
 }
+
+.flashes h4 {
+    line-height: 2;
+}
