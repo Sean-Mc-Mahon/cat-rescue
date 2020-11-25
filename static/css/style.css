@@ -2,41 +2,11 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
 }
 
-/* header {
-    background-image: url({{url_for('static', filename='img/catgrey.jpg')}});
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-} */
-
 header {
-    background: url(./static/img/catgrey.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(../img/rupert.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 500px;
-}
+    background-repeat: no-repeat;
 
-/* .header-image {
-    background-image: url({{url_for('static', filename='img/catgrey.jpg')}});
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-} */
-
-/* .header-image {
-    background: url(img/catgrey.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-} */
-
-/* .header-image {
-    background-image: url({{url_for('static', filename='img/catgrey.jpg')}});
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-} */
-
-#greycat {
-    width: 100%;
+    min-height: 60vh;
 }

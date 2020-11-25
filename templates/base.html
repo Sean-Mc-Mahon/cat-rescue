@@ -7,6 +7,7 @@
     <link 
     rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS taken from https://materializecss.com/getting-started.html -->
     <link 
     rel="stylesheet" 
@@ -18,42 +19,19 @@
 </head>
 <body>
 
-    <header class="header-image">
-    <!--Main Nav-->
-        <!-- <nav class="nav-wrapper">
-        <div class="container">
-            <a href="" class="brand-logo">Phibsboro Cat Rescue</a>
-            <a href="" class="sidenav-trigger" data-target="mobile-menu">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#adopt"></a>Adopt</li>
-                <li><a href="#volunteer"></a>Volunteer</li>
-                <li><a href="#gallery"></a>Gallery</li>
-                <li><a href="#contact"></a>Contact</li>
-                <li><a href="#login"></a>Log In</li>
-            </ul>
-            <ul class="sidenav grey lighten-2" id="mobile-menu">
-                <li><a href="#adopt"></a>Adopt</li>
-                <li><a href="#volunteer"></a>Volunteer</li>
-                <li><a href="#gallery"></a>Gallery</li>
-                <li><a href="#contact"></a>Contact</li>
-                <li><a href="#login"></a>Log In</li>
-            </ul>
-        </div>
-        </nav> -->
+    <header>
 
         <nav class="nav-wrapper transparent grey-text text-darken-4">
             <div class="container">
-                <a href="#!" class="brand-logo grey-text text-darken-4 text-shadow">Logo</a>
+                <a href="#!" class="brand-logo text-shadow">Logo</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                     <i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Adopt</a></li>
-                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Volunteer</a></li>
-                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Gallery</a></li>
-                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Contact</a></li>
-                    <li><a class=" grey-text text-darken-4 text-shadow" href="#">Login</a></li>
+                    <li><a class="text-shadow" href="#">Adopt</a></li>
+                    <li><a class="text-shadow" href="#">Volunteer</a></li>
+                    <li><a class="text-shadow" href="#">Gallery</a></li>
+                    <li><a class="text-shadow" href="#">Contact</a></li>
+                    <li><a class="text-shadow" href="#">Login</a></li>
                 </ul>
             </div>
         </nav>
@@ -67,10 +45,6 @@
         </ul>
 
     </header>
-
-    <!-- <section>
-        <img id="greycat" src="{{ url_for('static', filename='img/catgrey.jpg') }}" alt="">
-    </section> -->
 
     {% block content %}
     {% endblock %}
