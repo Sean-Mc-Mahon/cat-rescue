@@ -253,7 +253,7 @@ This section contains a form where users may provide details for cats currently 
 2. **CSS (Cascading Style Sheets):** Used throughout the site;
    https://www.w3.org/Style/CSS/Overview.en.html
 3. **Bootstrap:** Used to aid responsive design and for componants such as carousels and buttons https://getbootstrap.com/
-4. **Visual Studio Code:** Code Editor used to create the site.
+4. **Gitpod:** Code Editor used to create the site.
    https://code.visualstudio.com/
 5. **GitHub:** Used to host repos for the site https://https://github.com/Sean-Mc-Mahon/ms2-seanmcmahon-digital-design
 6. **Chrome/Firefox/Bing DevTools:** Regularly used to test the site https://developers.google.com/web/tools/chrome-devtools
