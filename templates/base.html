@@ -32,9 +32,14 @@
                     <li><a class="text-shadow" href="#">Volunteer</a></li>
                     <li><a class="text-shadow" href="#">Gallery</a></li>
                     <li><a class="text-shadow" href="#">Contact</a></li>
-                    <li><a class="text-shadow" href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-                    <li><a class="text-shadow" href="{{ url_for('login') }}">Login</a></li>
-                    <li><a class="text-shadow" href="{{ url_for('register') }}">Register</a></li>
+                    {% if session.user %}
+                        <li><a class="text-shadow" 
+                        href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+                        <li><a href="{{ url_for('logout') }}">log Out</a></li>
+                    {% else %}
+                        <li><a href="{{ url_for('login') }}">Login</a></li>
+                        <li><a href="{{ url_for('register') }}">Register</a></li>
+                    {% endif %}
                 </ul>
             </div>
         </nav>
@@ -46,9 +51,14 @@
                     <li><a href="#">Volunteer</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a class="text-shadow" href="{{ url_for('profile', username=session['user']) }}
-                    <li><a href="{{ url_for('login') }}">Login</a></li>
-                    <li><a href="{{ url_for('register') }}">Register</a></li>
+                    {% if session.user %}
+                        <li><a class="text-shadow" 
+                        href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+                        <li><a href="{{ url_for('logout') }}">log Out</a></li>
+                    {% else %}
+                        <li><a href="{{ url_for('login') }}">Login</a></li>
+                        <li><a href="{{ url_for('register') }}">Register</a></li>
+                    {% endif %}
         </ul>
 
     </header>
