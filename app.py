@@ -21,7 +21,7 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_cats")
 def get_cats():
-    cats = mongo.db.cats.find()
+    cats = list(mongo.db.cats.find())
     return render_template("cats.html", cats=cats)
 
 
